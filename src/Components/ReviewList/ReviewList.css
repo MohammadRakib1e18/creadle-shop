@@ -1,0 +1,29 @@
+.review{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.btnReview {
+    color: #ffffff;
+    background: #471f75ef;
+    text-shadow: 0 0 10px #ffffff;
+    font-size: 17px;
+    padding: 2px 5px;
+    border-radius: 13px;
+}
+.btnReview:hover{
+    border: 2px solid rgb(44, 38, 38);
+    background: #5f165f;
+    color: #ffffff;
+}
+
+/* Responsiveness for Mobile Devices */
+@media only screen and (max-width:414px) {
+    .review{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:768px) {
+    .review{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
