@@ -12,7 +12,7 @@ const Booking = () => {
     const [placeOrder, setPlaceOrder] = useState({});
 
     useEffect(() => {
-        fetch("https://secret-wave-59643.herokuapp.com/services")
+        fetch("https://infinite-cove-31198.herokuapp.com/services")
             .then((res) => res.json())
             .then((data) => setServices(data));
     }, []);
@@ -42,7 +42,7 @@ const Booking = () => {
         setPlaceOrder(newPlaceOrder);
     };
     const handleOrder = (e) => {
-        fetch("https://secret-wave-59643.herokuapp.com/order", {
+        fetch("https://infinite-cove-31198.herokuapp.com/order", {
             method: "POST",
             headers: {
                 "content-type": "application/json",

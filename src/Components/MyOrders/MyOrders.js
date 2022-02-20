@@ -17,7 +17,7 @@ const MyOrders = ({ _id }) => {
     const { user } = useAuth();
 
     useEffect(() => {
-        const url = `https://secret-wave-59643.herokuapp.com/order?email=${user.email}`;
+        const url = `https://infinite-cove-31198.herokuapp.com/order?email=${user.email}`;
         fetch(url)
             .then((res) => res.json())
             .then((data) => setOrders(data));
@@ -35,7 +35,7 @@ const MyOrders = ({ _id }) => {
             confirmButtonText: "Yes, delete it!",
         }).then((result) => {
             if (result.isConfirmed) {
-                const url = `https://secret-wave-59643.herokuapp.com/deleteOrder/${id}`;
+                const url = `https://infinite-cove-31198.herokuapp.com/deleteOrder/${id}`;
                 fetch(url, {
                     method: "DELETE",
                 })

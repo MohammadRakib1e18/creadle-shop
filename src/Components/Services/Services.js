@@ -7,7 +7,7 @@ const Services = () => {
     const [services, setServices] = useState([]);
     
     useEffect(()=>{
-        fetch('https://secret-wave-59643.herokuapp.com/services')
+        fetch('https://infinite-cove-31198.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setServices(data));
     }, [])
