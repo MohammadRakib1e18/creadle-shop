@@ -30,7 +30,7 @@ const Booking = () => {
 
     placeOrder["name"] = user.displayName;
     placeOrder["email"] = user.email;
-    placeOrder["foodName"] = Name;
+    placeOrder["creadleName"] = Name;
     placeOrder["price"] = price;
     placeOrder["picture"] = img;
 
@@ -68,7 +68,7 @@ const Booking = () => {
     return (
         <Container sx={{ mt: 2 }}>
             <h2 className="text-info">
-                Favourite Food : 
+                Favourite Creadle : 
                 <span className="text-danger"> {Name}</span>
             </h2>
             <hr style={{ paddingBottom: "2px", color: "chocolate" }} />

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
 .banner-container{
-    background-color: #9B46F5;
+    background-image: linear-gradient(rgb(6, 71, 71), rgb(57, 183, 187), rgb(6, 71, 71));
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 50px;
@@ -17,6 +17,7 @@
 .banner-descrition h1{
     font-size: 3.5em;
     font-family: 'Noto Serif', serif;
+    color:rgb(241, 241, 227);
 }
 .connection-container h1{
     color: rgba(40, 63, 138, 0.534);

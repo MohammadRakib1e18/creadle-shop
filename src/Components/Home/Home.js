@@ -20,8 +20,8 @@ const Home = () => {
                     <img src={banner} alt="" />
                 </div>
                 <div className="banner-descrition text-center">
-                    <h1>Stay safe from the</h1>
-                    <h1>Novel Coronavirus!</h1>
+                    <h1>World's Leading</h1>
+                    <h1>Creadle Superstore!</h1>
                 </div>
             </div>
             <div>
@@ -49,26 +49,28 @@ const Home = () => {
             {/* connection-process */}
             <div className="connection-container mt-5 bg-secondary">
                 <div className="text-center">
-                    <h5 className="text-secondary">OUR PROCESS</h5>
-                    <h1>Go Direct-To-Consumer With FoodBike</h1>
+                    <h5 className="text-info mt-5">OUR PROCESS</h5>
+                    <h1 className="text-white">
+                        Go Direct-To-Consumer With CreadleBike
+                    </h1>
                 </div>
                 <hr />
                 <div className="process">
                     <div className="single-process">
                         <img src={process1} alt="" />
-                        <p>Choose Food</p>
+                        <p className="text-warning">Choose Creadle</p>
                     </div>
                     <div className="single-process">
                         <img src={process2} alt="" />
-                        <p>Order</p>
+                        <p className="text-warning">Order</p>
                     </div>
                     <div className="single-process">
                         <img src={process3} alt="" />
-                        <p>Find Driver</p>
+                        <p className="text-warning">Find Driver</p>
                     </div>
                     <div className="single-process">
                         <img src={process4} alt="" />
-                        <p>Delivery</p>
+                        <p className="text-warning">Delivery</p>
                     </div>
                 </div>
             </div>
@@ -76,24 +78,22 @@ const Home = () => {
             {/* team founder */}
             <hr />
             <div className="bg-secondary">
-                <h1 className="text-center text-secondary my-3">
-                    Our Team Founder
-                </h1>
+                <h1 className="text-center text-info my-3">Our Team Founder</h1>
                 <div className="founders text-center">
                     <div className="founder">
                         <img src={founder1} alt="" />
-                        <h3>Dr. Alex Furgosen</h3>
-                        <h6>CENCER SPEICIALIST</h6>
+                        <h3>Alex Furgosen</h3>
+                        <h6>Manager</h6>
                     </div>
                     <div className="founder">
                         <img src={founder2} alt="" />
-                        <h3>Dr.Robert Smith</h3>
-                        <h6>HEART SURGON</h6>
+                        <h3>Sharmin</h3>
+                        <h6>Chairman</h6>
                     </div>
                     <div className="founder">
                         <img src={founder3} alt="" />
-                        <h3>Dr. Sharmin</h3>
-                        <h6>FEMALE PHYSICIAN</h6>
+                        <h3>Robert Smith</h3>
+                        <h6>Chief Director</h6>
                     </div>
                 </div>
             </div>

@@ -92,7 +92,7 @@ const MyOrders = () => {
                     >
                         Oops! You've{" "}
                         <span className="text-warning fs-1">Not Ordered</span>{" "}
-                        any food
+                        any creadle
                     </h5>
                     <hr
                         style={{
@@ -110,13 +110,13 @@ const MyOrders = () => {
                             <TableCell
                                 sx={{ fontSize: "25px", textAlign: "center" }}
                             >
-                                Food
+                                Creadle
                             </TableCell>
                             <TableCell align="right" sx={{ fontSize: "25px" }}>
                                 Client
                             </TableCell>
                             <TableCell align="right" sx={{ fontSize: "25px" }}>
-                                Food Name
+                                Creadle Name
                             </TableCell>
                             <TableCell align="right" sx={{ fontSize: "25px" }}>
                                 Phone
@@ -165,7 +165,7 @@ const MyOrders = () => {
                                     }}
                                     align="right"
                                 >
-                                    {order.foodName}
+                                    {order.creadleName}
                                 </TableCell>
                                 <TableCell
                                     style={{ fontSize: "1em" }}

@@ -57,13 +57,13 @@ const AddProduct = () => {
                         htmlFor="exampleFormControlInput1"
                         className="form-label"
                     >
-                        Enter Food Name
+                        Enter Creadle Name
                     </label>
                     <input
                         name="Name"
                         className="form-control"
                         id="exampleFormControInput1"
-                        placeholder="food name"
+                        placeholder="creadle name"
                         onBlur={handleOnBlur}
                         required
                     />
@@ -73,13 +73,13 @@ const AddProduct = () => {
                         htmlFor="exampleFormControlInput1"
                         className="form-label"
                     >
-                        Food's Image URL
+                        Creadle's Image URL
                     </label>
                     <input
                         name="img"
                         className="form-control"
                         id="exampleFormControInput1"
-                        placeholder="paste food picture's url"
+                        placeholder="paste creadle picture's url"
                         onBlur={handleOnBlur}
                         required
                     />
@@ -96,7 +96,7 @@ const AddProduct = () => {
                         name="price"
                         className="form-control"
                         id="exampleFormControInput1"
-                        placeholder="food price"
+                        placeholder="creadle price"
                         onBlur={handleOnBlur}
                         required
                     />
